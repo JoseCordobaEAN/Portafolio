@@ -1,0 +1,161 @@
+.navbar {
+    background: #f97300;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #f4f4f4;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    background: #f4f4f4;
+    color: #f97300;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.nav-bar-toggler {
+    background: #fff !important;
+}
+
+.bg-dark {
+    background-color: #343a40 !important;
+}
+
+.bg-primary {
+    background-color: #007b77 !important;
+}
+
+/* Header Style*/
+
+.header {
+    background-image: url('../images/headerback.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244, 244, 244, 0.79);
+}
+
+.description {
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+
+.description h3 {
+    color: #F97300;
+}
+
+.description p {
+    color: #666;
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.5;
+}
+
+.description button {
+    border: 1px solid #F97300;
+    background: #F97300;
+    color: #fff;
+}
+
+
+/*Acerca de*/
+.acerca {
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+}
+
+.acerca h3 {
+    color: #f97300;
+    margin: 2em;
+}
+
+.acerca img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.acerca span {
+    display: block;
+    color: #888;
+    position: absolute;
+    left: 115px;
+}
+
+.acerca .desc {
+    padding: 2em;
+    border-left: 4px solid #10828c;
+}
+
+.acerca .desc h3 {
+    color: #10828c;
+}
+
+.acerca .desc p {
+    line-height: 2;
+    color: #888;
+}
+
+/*Portafolio*/
+.portfolio {
+    margin: 4em 0;
+    position: relative;
+}
+
+.portfolio h3 {
+    color: #f97300;
+    margin: 2em auto;
+    text-align: center;
+}
+
+.portfolio img {
+    height: 15rem;
+    width: 100%;
+    margin: 1em;
+}
+
+/* Blog */
+.blog {
+    margin: 4em 0;
+}
+
+.blog h3{
+    color: #f97300;
+    margin: 2em;
+}
+
+.blog .card{
+    box-shadow: 0 0 20px #ccc;
+}
+
+.blog .card img {
+    width: 100%;
+    height: 12em;
+}
+
+.blog .card-title {
+    color: #F97300;
+}
+
+.blog .card-body {
+    padding: 1em;
+}
