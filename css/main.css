@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html,h1,h2,h3,h4,h5,h6,a{
+ font-family: "Raleway";
+}
+
 .navbar {
     background: #f97300;
 }
@@ -77,6 +83,7 @@
 
 
 /*Acerca de*/
+
 .acerca {
     margin: 4em 0;
     padding: 1em;
@@ -116,6 +123,7 @@
 }
 
 /*Portafolio*/
+
 .portfolio {
     margin: 4em 0;
     position: relative;
@@ -134,16 +142,17 @@
 }
 
 /* Blog */
+
 .blog {
     margin: 4em 0;
 }
 
-.blog h3{
+.blog h3 {
     color: #f97300;
     margin: 2em;
 }
 
-.blog .card{
+.blog .card {
     box-shadow: 0 0 20px #ccc;
 }
 
@@ -161,12 +170,13 @@
 }
 
 /* Redes */
+
 .team {
     margin: 4em 0;
     position: relative;
 }
 
-.team a:hover{
+.team a:hover {
     text-decoration: none;
 }
 
@@ -187,7 +197,7 @@
     transition: .3s ease-in-out;
 }
 
-.team .item:hover .des{
+.team .item:hover .des {
     height: 100%;
     background: #f973007d;
     position: absolute;
@@ -195,4 +205,32 @@
     padding: 5em;
     top: 0;
     border-bottom-left-radius: 0;
+}
+
+/* Contacto */
+
+.contact-form {
+    margin: 6em 0;
+    position: relative;
+}
+
+
+.contact-form h3 {
+    padding: 2em 1px;
+    color: #F97300;
+}
+
+.contact-form .right {
+    max-width: 600px;
+}
+
+.contact-form .right .btn-secondary {
+    background: #F97300;
+    color: #fff;
+    border: 0;
+}
+
+.contact-form .right .form-control::placeholder {
+    color: #888;
+    font-size: 16px;
 }

@@ -20,19 +20,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-4">
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Acerca</a>
+                    <a href="#" data-value="acerca" class="nav-link">Acerca</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Portafolio</a>
+                    <a href="#" data-value="portafolio" class="nav-link">Portafolio</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Redes</a>
+                    <a href="#" data-value="redes" class="nav-link">Redes</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Blog</a>
+                    <a href="#" data-value="blog" class="nav-link">Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Contacto</a>
+                    <a href="#" data-value="contacto" class="nav-link">Contacto</a>
                 </li>
             </ul>
         </div>
@@ -54,7 +54,7 @@
 
 
     <!--- Acerca de --->
-    <section class="acerca">
+    <section class="acerca" id="acerca">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-12">
                 <img src="images/jose.JPG" alt="Yo" class="img-fluid">
@@ -70,8 +70,8 @@
         </div>
     </section>
 
-    <!-- Portafolio -->
-    <div class="portfolio">
+    <!--- Portafolio --->
+    <div class="portfolio" id="portafolio">
         <h3 class="portfolio">Portafolio</h3>
         <div class="container">
             <div class="row">
@@ -85,8 +85,8 @@
         </div>
     </div>
 
-    <!-- Blog -->
-    <div class="blog">
+    <!--- Blog --->
+    <div class="blog" id="blog">
         <div class="container">
             <h3 class="text-center">Blog</h3>
             <div class="row">
@@ -125,7 +125,7 @@
     </div>
 
     <!--- Team --->
-    <div class="team">
+    <div class="team" id="redes">
         <div class="container">
             <h3 class="text-center">Mis Redes</h3>
             <div class="row">
@@ -160,6 +160,33 @@
             </div>
         </div>
     </div>
+
+    <!--- Contacto --->
+    <div class="contact-form" id="contacto">
+        <div class="container">
+            <form action="">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <h3>Contactame</h3>
+                    </div>
+
+                    <div class="col-lg-8 col-md-8 col-sm-12 right">
+                        <div class="form-group">
+                            <input type="text" class="form-control form-control-lg" placeholder="&#128100; Nombre" name="">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control form-control-lg" placeholder="&#128231; TuCorreo@email.com" name="email">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control form-control-lg" placeholder="&#9997; Comentarios"></textarea>
+                        </div>
+                        <input type="submit" class="btn btn-secondary btn-block" value="Enviar" name="">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
